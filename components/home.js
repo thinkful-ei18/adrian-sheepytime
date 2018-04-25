@@ -1,9 +1,10 @@
 import React from 'react';
+import {Text, View } from 'react-native';
 
 export default function home(props) {
   return (
-    <div>
-      <h1>Hello world!</h1>
-    </div>
+    <View>
+      <Text>Sheepytime</Text>
+    </View>
   );
 }
